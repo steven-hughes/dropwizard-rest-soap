@@ -15,4 +15,15 @@ public class ExternalConfiguration extends Configuration {
     public void setSoapServer(SoapServerConfig soapServer) {
         this.soapServer = soapServer;
     }
+
+    @JsonProperty
+    private SoapClientConfig soapClient;
+
+    public SoapClientConfig getSoapClient() {
+        return soapClient;
+    }
+
+    public void setSoapClient(SoapClientConfig soapClient) {
+        this.soapClient = soapClient;
+    }
 }
