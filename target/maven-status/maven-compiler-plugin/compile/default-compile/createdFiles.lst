@@ -1,0 +1,13 @@
+com/kainos/example/services/HelloWorldSOAPService.class
+com/kainos/example/ExternalConfiguration.class
+com/kainos/example/helpers/ConfigurationHelper.class
+com/kainos/example/ExternalApplication.class
+com/kainos/example/api/RequestObject.class
+com/kainos/example/services/ValueCheckerService.class
+com/kainos/example/services/IValueCheckerService.class
+com/kainos/example/jaxws/services/IThingService.class
+com/kainos/example/jaxws/services/ThingService.class
+com/kainos/example/jaxws/models/Thing.class
+com/kainos/example/health/ApplicationHealthCheck.class
+com/kainos/example/api/ResponseObject.class
+com/kainos/example/resources/ValueCheckerResource.class

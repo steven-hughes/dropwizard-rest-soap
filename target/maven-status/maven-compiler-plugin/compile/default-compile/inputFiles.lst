@@ -1,0 +1,13 @@
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/jaxws/models/Thing.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/jaxws/services/IThingService.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/api/ResponseObject.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/services/IValueCheckerService.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/services/ValueCheckerService.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/services/HelloWorldSOAPService.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/health/ApplicationHealthCheck.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/resources/ValueCheckerResource.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/ExternalApplication.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/helpers/ConfigurationHelper.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/ExternalConfiguration.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/jaxws/services/ThingService.java
+/Users/stephendo/dropwizard-rest-soap/src/main/java/com/kainos/example/api/RequestObject.java
