@@ -1,7 +1,6 @@
 package com.kainos.example;
 
 import com.kainos.example.health.ApplicationHealthCheck;
-import com.kainos.example.helpers.ConfigurationHelper;
 import com.kainos.example.jaxws.services.ThingService;
 import com.kainos.example.resources.ValueCheckerResource;
 import com.kainos.example.services.ValueCheckerService;
@@ -32,6 +31,6 @@ public class ExternalApplication extends Application<ExternalConfiguration> {
         ApplicationHealthCheck applicationHealthCheck = new ApplicationHealthCheck();
         environment.healthChecks().register("alive", applicationHealthCheck);
 
-        Endpoint.publish(ConfigurationHelper.getProperty("soapEndpoint"), new ThingService());
+        Endpoint.publish(configuration.getSoapServer().getBaseUrl(), new ThingService());
     }
 }
