@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+
+#   Build the api java application and expose it on port 3002.
+  api-dropwizard:
+     build: .
+     ports:
+       - "3002:3002"
