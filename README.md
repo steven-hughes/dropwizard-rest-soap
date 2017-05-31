@@ -2,7 +2,7 @@
 
 A java implementation of an external API using dropwizard (Port 3002).
 
-SOAP API implemented with JAX-WS (Port 8888).
+SOAP API implemented with JAX-WS (Port 3000).
 
 ## Run the service
 

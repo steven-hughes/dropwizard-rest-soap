@@ -4,7 +4,7 @@ server:
         port: 3002
 
 soapServer:
-  baseUrl: http://localhost:8888/
+  baseUrl: http://localhost:3000/
 
 soapClient:
-  baseUrl: http://localhost:8888/
+  baseUrl: http://localhost:3000/
